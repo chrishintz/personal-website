@@ -1,0 +1,68 @@
+body {
+  background-image: url(/css/Photos/cannon_beach.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Verdana, sans-serif;
+}
+
+a:link {
+  color: #F0FFFF;
+  text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:visited {
+    color: #F0FFFF;
+}
+
+a:hover {
+    background-color: #4D5061
+}
+
+.vertical .navigation {
+  display: block;
+  margin: 0;
+  padding: 0;
+  float:right;
+  background-color: rgba(118,123,145,0.8);
+  color: #F0FFFF;
+  width: 400px;
+  min-height: 70%;
+	height: 70%;
+	margin: 200px -45px 0px;
+}
+
+.vertical .navigation h1 {
+  background-color: rgba(118,123,145);
+  color: #F0FFFF;
+  font-size: 60px;
+  font-family: Trebuchet monospace;
+  padding: 10px;
+  position: relative;
+}
+
+.vertical .navigation ul {
+  padding: 0;
+}
+
+.vertical .navigation li {
+  display:block;
+  font-size: 20px;
+}
+
+.vertical .navigation li a {
+  display: block;
+  padding: 20px;
+  height: 40px;
+  color: #D3D3D3;
+  border-bottom: 1px solid transparent;
+  border-color: rgba(0,0,0, 0.2);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1300px;
+}
