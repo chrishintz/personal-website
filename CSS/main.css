@@ -15,10 +15,6 @@ a:link {
   text-decoration: none;
 }
 
-/*a:active {
-    color: yellow;
-}*/
-
 a:visited {
     color: #F0FFFF;
 }
@@ -85,7 +81,6 @@ h2.bio {
 }
 p.bio {
   color:#fff;
-  /*display: inline;*/
 }
 
 .mid {
